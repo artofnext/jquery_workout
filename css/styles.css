@@ -1,0 +1,39 @@
+.slick-prev::before  {
+    content: "<";
+}
+
+.slick-arrow {
+
+}
+
+.your-class {
+    width: 100%;
+    /* max-width: 1000px; */
+    margin: 0 auto;
+}
+
+img {
+    width: 1600px;
+}
+
+.slick-dots {
+    position: absolute;
+    display: flex !important; 
+    flex-direction: column;
+    top: 50%;
+    left: 0;
+}
+
+.slide-elem {
+    position: relative;
+}
+
+.slide-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* transform-origin: 50% 50%; */
+}
+
+#mapid { height: 500px; }
